@@ -347,9 +347,9 @@ var Services = map[string]Service{
 		Ports:  []string{"10012:10012"},
 	},
 	"meshery-nighthawk": {
-		Image:   "meshery/meshery-nighthawk:stable-latest",
-		Labels:  []string{"com.centurylinklabs.watchtower.enable=true"},
-		Ports:   []string{"10013:10013"},
+		Image:  "meshery/meshery-nighthawk:stable-latest",
+		Labels: []string{"com.centurylinklabs.watchtower.enable=true"},
+		Ports:  []string{"10013:10013"},
 	},
 	"watchtower": {
 		Image:   "containrrr/watchtower",
